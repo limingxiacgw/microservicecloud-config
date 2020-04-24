@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+    
+    
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-lmx-dev
+    
+
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-lmx-test
+    
+#请保存为utf-8格式  呵呵
