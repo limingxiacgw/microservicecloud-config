@@ -44,7 +44,7 @@ eureka:
     fetch-registry: false #false标识自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
     service-url:
       # 单机 defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka
+      defaultZone: http://eureka7001.com:7001/eureka/
       #设置与Eureka Server交互的地址查询服务和注册服务的地址
   #server:
     #enable-self-preservation: false  #禁用eureka的自我保护机制  默认是开启的
